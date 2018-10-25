@@ -3,8 +3,8 @@
 
 @font-face {
     font-family: 'arial_mt_stdlight';
-    src: url('/assets/fonts/arial_mt_std_light.woff2') format('woff2'),
-         url('/assets/fonts/arial_mt_std_light.woff') format('woff');
+    src: url('../fonts/arial_mt_std_light.woff2') format('woff2'),
+         url('../fonts/arial_mt_std_light.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -84,7 +84,7 @@ body {
 }
 
 .zebra-bg-01 {
-    background: url("/assets/images/bg-zebra-02.jpg") top center repeat grey;
+    background: url("../images/bg-zebra-02.jpg") top center repeat grey;
 }
 
 
@@ -199,19 +199,7 @@ body {
             color: #545c67;
         }
     }
-    // a {
-    //     margin: 0;
-    //     text-align: center;
-    //     margin-top: -28px;
-    //     span {
-    //         background-color: #ff6c00;
-    //         color: white;
-    //         display: inline-block;
-    //         margin: 0;
-    //         padding: 1rem;
-    //         text-transform: uppercase;
-    //     }
-    // }    
+   
 }
 
 .logo-text {
@@ -305,16 +293,6 @@ body {
     } //- navbar-nav
     
 }
-
-// .navbar-nav .dropdown-menu {
-//     position: static;
-//     float: none;
-// }
-
-
-
-
-
 
 
 

@@ -3,3 +3,5 @@
 /node_modules/**
 /assets/vendor/**
 /public/**
+id_rsa2
+id_rsa2.pub

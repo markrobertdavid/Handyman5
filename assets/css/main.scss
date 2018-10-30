@@ -531,18 +531,18 @@ body {
           align-items: center;
           background: #ebebeb;
           border-radius: 1rem;
-          padding: 0.35rem 1rem;
+          padding: 0.35rem .75rem;
           margin: 0.35rem 0.15rem;
           max-width: 300px;
   
           &.checked {
               position: relative;
               justify-content: flex-start;
-              padding-right: 2.2rem;
+            //   padding-right: 2.2rem;
   
               &::after {
                   content: "\f00c";
-                  position: absolute;
+                //   position: absolute;
                   font-family: "Font Awesome 5 Free"; 
                   font-weight: 900; 
                   font-size: 0.6rem;
@@ -556,6 +556,7 @@ body {
                   width: 20px;
                   height: 20px;
                   right: 8px;
+                  margin-left: .5rem;
               }
           }
   
